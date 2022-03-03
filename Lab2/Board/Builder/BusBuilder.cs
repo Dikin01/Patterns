@@ -2,7 +2,7 @@
 
 namespace Lab2
 {
-    internal class BusBuilder : BoardBuilder
+    public class BusBuilder : BoardBuilder
     {
         private BoardBus bus;
 
@@ -20,17 +20,21 @@ namespace Lab2
         {
             bus.Passengers = new List<Passenger>();
 
-            for (int i = 0; i < bus.LimitPassenger / 3; i++)
+            for (int i = 0; i < bus.LimitPassenger / 2; i++)
             {
-                bus.Passengers.Add(new AdultPassenger());
-                bus.Passengers.Add(new ChildPassenger());
-                bus.Passengers.Add(new PrivilegedPassenger());
+                bus.Passengers.Add(new BusPassenger());
+                bus.Passengers.Add(new BusPassenger("Ванька", MaturityPassenger.Kid));
             }
         }
 
         public override BoardAnyCar GetBoard()
         {
             return bus;
+        }
+
+        public override void ProtectPassengers()
+        {
+            return;
         }
     }
 }

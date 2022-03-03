@@ -12,17 +12,23 @@ namespace Lab2
 
             Console.WriteLine("Lab1");
 
-            BusBuilder builder = new BusBuilder();
+            BoardBuilder builder = new BusBuilder();
             BoardDirector boardDirector = new BoardDirector(builder);
             BoardAnyCar board = boardDirector.CreateBoard();
             success = board.isMoving();
             Console.WriteLine("Может ли теперь ехать автобус = " + success);
 
-            TaxiBuilder builder1 = new TaxiBuilder();
-            boardDirector.Builder = builder1;
+            builder = new TaxiBuilder();
+            boardDirector.Builder = builder;
             board = boardDirector.CreateBoard();
             success = board.isMoving();
             Console.WriteLine("Может ли теперь ехать такси = " + success);
+
+            builder = new BoatBuilder();
+            boardDirector.Builder = builder;
+            board = boardDirector.CreateBoard();
+            success = board.isMoving();
+            Console.WriteLine("Может ли теперь ехать лодка = " + success);
         }
     }
 }

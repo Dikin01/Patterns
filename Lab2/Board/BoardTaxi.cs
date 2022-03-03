@@ -5,8 +5,7 @@
         public TypeLicense License { private set; get; }
         public int LimitPassenger { private set; get; }
         public double Price { private set; get; }
-
-        public bool hasChildSeat { set; get; }
+        
         public BoardTaxi()
         {
             License = TypeLicense.B;
@@ -31,7 +30,12 @@
                 return false;
             }
 
-            
+            foreach (TaxiPassenger passenger in Passengers)
+            {
+                if(passenger.Maturity.Equals(MaturityPassenger.Kid) && passenger.OnCarSeat == false)
+                    return false;
+            }
+                
             return true;
         }
     }

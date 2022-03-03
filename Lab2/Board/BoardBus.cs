@@ -10,7 +10,7 @@
             Driver = new BusDriver();
             License = TypeLicense.D;
             LimitPassenger = 30;
-            Price = 34;         
+            Price = 34;
         }
 
         protected override bool BoardDriver()
@@ -30,19 +30,7 @@
                 return false;
             }
 
-
-            foreach (Passenger p in Passengers)
-            {
-                if (p is PrivilegedPassenger && !(p as PrivilegedPassenger).HasTravelCard)
-                {
-                    return false;
-                }
-                if (p is ChildPassenger && !((p as ChildPassenger).Age < 8))
-                {
-                    return false;
-                }
-
-            }
+            
             return true;
         }
     }

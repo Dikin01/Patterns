@@ -1,109 +1,123 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="Lab2.BoardAnyCar" Collapsed="true">
-    <Position X="6.75" Y="3.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAQAAAAAAAAAAgAAAAAAgAAAAAABAAAIAAA=</HashCode>
-      <FileName>Board\BoardAnyCar.cs</FileName>
-    </TypeIdentifier>
-  </Class>
   <Class Name="Lab2.BoardBuilder">
-    <Position X="11.25" Y="0.5" Width="1.5" />
+    <Position X="3.75" Y="0.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAEAgAAABAAAAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Board\BoardBuilder.cs</FileName>
+      <HashCode>AAAAAAEAgAAABAAAAAAAABAgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Board\Builder\BoardBuilder.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Lab2.BoardBus" Collapsed="true">
-    <Position X="7.75" Y="4.75" Width="1.5" />
+  <Class Name="Lab2.BoatBuilder" Collapsed="true">
+    <Position X="3.75" Y="3.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAQAAEAAAAAAAAgAAAAAAAAAAAAAAAAAICAA=</HashCode>
-      <FileName>Board\BoardBus.cs</FileName>
+      <HashCode>AAAAAAEAgAAABAAAAAAAADAgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Board\Builder\BoatBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab2.BusBuilder" Collapsed="true">
+    <Position X="6" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAECgAAABAAAAAAAABAgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Board\Builder\BusBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab2.TaxiBuilder" Collapsed="true">
+    <Position X="1.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAgAAABAAAAAAAABAgAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Board\Builder\TaxiBuilder.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Lab2.BoardDirector">
-    <Position X="13.5" Y="0.5" Width="1.5" />
+    <Position X="6.5" Y="0.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAgAAAAAAAAA=</HashCode>
       <FileName>Board\BoardDirector.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Lab2.BoardTaxi" Collapsed="true">
-    <Position X="5.5" Y="4.75" Width="1.5" />
+  <Class Name="Lab2.BoatPassenger">
+    <Position X="9.75" Y="2" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAQAAEAAAAAAAAgAAAAAAEAAAAAAAAAAICAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Passenger\BoatPassenger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab2.BusPassenger">
+    <Position X="12" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Passenger\BusPassenger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab2.Passenger" Collapsed="true">
+    <Position X="12" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Passenger\Passenger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab2.TaxiPassenger">
+    <Position X="14.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAEAAAAAAAAAAA=</HashCode>
+      <FileName>Passenger\TaxiPassenger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab2.BoardAnyCar" Collapsed="true">
+    <Position X="4" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAAAAgAAAAAAgAAAAAABAAAIAAA=</HashCode>
+      <FileName>Board\BoardAnyCar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab2.BoardBus" Collapsed="true">
+    <Position X="4" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAEAAAAAAAAgAAAAAAAAAAAAAAAAAICAA=</HashCode>
+      <FileName>Board\BoardBus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab2.BoardTaxi" Collapsed="true">
+    <Position X="6.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAEAAAAAAAAgAAAAAAAAAAAAAAAAAICAA=</HashCode>
       <FileName>Board\BoardTaxi.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Lab2.BusBuilder">
-    <Position X="10" Y="2.75" Width="1.5" />
+  <Class Name="Lab2.BoatBoard" Collapsed="true">
+    <Position X="1.75" Y="6" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAECgAAABAAAAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Board\BusBuilder.cs</FileName>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAAgAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Board\BoatBoard.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Lab2.TaxiBuilder">
-    <Position X="12.25" Y="2.75" Width="1.5" />
+  <Class Name="Lab2.BoatDriver" Collapsed="true">
+    <Position X="9.75" Y="5.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAEAgAAABAAAAAAAABAAAAAAAAAAAAAAAAAQAAA=</HashCode>
-      <FileName>Board\TaxiBuilder.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Driver\BoatDriver.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Lab2.BusDriver" Collapsed="true">
-    <Position X="3.25" Y="4.75" Width="1.5" />
+    <Position X="12" Y="5.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Driver\BusDriver.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Lab2.Driver" Collapsed="true">
-    <Position X="2.25" Y="3.5" Width="1.5" />
+    <Position X="12" Y="4.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAACAg=</HashCode>
       <FileName>Driver\Driver.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Lab2.TaxiDriver" Collapsed="true">
-    <Position X="1" Y="4.75" Width="1.5" />
+    <Position X="14.25" Y="5.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Driver\TaxiDriver.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Lab2.AdultPassenger" Collapsed="true">
-    <Position X="3.5" Y="1.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Passenger\AdultPassenger.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="Lab2.ChildPassenger" Collapsed="true">
-    <Position X="5.75" Y="1.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Passenger\ChildPassenger.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="Lab2.Passenger" Collapsed="true">
-    <Position X="3.5" Y="0.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAACAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Passenger\Passenger.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="Lab2.PrivilegedPassenger" Collapsed="true">
-    <Position X="1.25" Y="1.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Passenger\PrivilegedPassenger.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Enum Name="Lab2.TypeLicense" Collapsed="true">
-    <Position X="0.5" Y="3.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAApAEAAAA=</HashCode>
-      <FileName>TypeLicense.cs</FileName>
-    </TypeIdentifier>
-  </Enum>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>

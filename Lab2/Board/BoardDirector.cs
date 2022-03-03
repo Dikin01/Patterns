@@ -13,6 +13,7 @@
             Builder.CreatBoard();
             Builder.AddDriver();
             Builder.AddPassenger();
+            Builder.ProtectPassengers();
             return Builder.GetBoard();
         }
     }
