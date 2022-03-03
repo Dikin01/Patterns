@@ -14,8 +14,7 @@ namespace Lab3
         public Baggage(double weight = 10)
         {
             StateBaggage = StateBaggage.NotRegistered;
-           /* if
-            Weight = 10;*/
+            Weight = weight;
         }
     }
 }

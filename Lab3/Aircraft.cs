@@ -8,7 +8,7 @@ namespace Lab3
 {
     internal class Aircraft : AircraftDivision, IBaggagesReport
     {
-        public List<AircraftDivision> AircraftDivisions { protected set; get; }
+        public List<AircraftDivision> Divisions { protected set; get; }
         private Pilot[] pilots = new Pilot[2];
         private Stewardess[] stewardesses = new Stewardess[6];
 
@@ -30,38 +30,65 @@ namespace Lab3
 
 
             FirstClass firstClass = new FirstClass();
-            for(int i = 0; i < FirstClass.PersonLimit; i++)
-            {
-                firstClass.Add()
-            }
-            BusinessClass businessClass = new BusinessClass();
             EconomyClass economyClass = new EconomyClass();
+            BusinessClass businessClass = new BusinessClass();
 
-            AircraftDivisions.Add(firstClass);
-            AircraftDivisions.Add(businessClass);
-            AircraftDivisions.Add(economyClass);
-            
+            for(int i = 0; i < FirstClass.PersonLimit; i++)
 
+            {
+                firstClass.Add(GetRandomPassenger());
+            }
+            for (int i = 0; i < EconomyClass.PersonLimit; i++)
+            {
+                economyClass.Add(GetRandomPassenger());
+            }
+            for(int i = 0; i<BusinessClass.PersonLimit; i++)
+            {
+                businessClass.Add(GetRandomPassenger());
+            }
 
-
-
-
-
+            Divisions = new List<AircraftDivision>();
+            Divisions.Add(firstClass);
+            Divisions.Add(businessClass);
+            Divisions.Add(economyClass);
         }
 
         public override void PutOnPlane(AircraftDivision division)
         {
-            throw new NotImplementedException();
+            for(int i = 0; i<Divisions.Count(); i++)
+            {
+                Divisions[i].PutOnPlane(this);
+            }
         }
 
         public string ReportBaggages()
         {
-            return "";
+            string result = "Посадка багажа на самолёт";
+            for (int i = 0; i < Divisions.Count; i++)
+            {
+                if (Divisions[i] is Passenger)
+                {
+                    Passenger passenger = (Passenger)Divisions[i];
+                    string bagStatus = passenger.Baggage.StateBaggage switch
+                    {
+                        StateBaggage.NotRegistered => "не прошёл регистрацию",
+                        StateBaggage.OnBoard => "на борту",
+                        StateBaggage.RemoveFromFlight => "снят с рейса",
+                        _ => "нет информации по багажу"
+
+                    };
+
+                    result += $"\n\tУ пассажира {passenger.Name} + {passenger.LastName} + багаж {bagStatus}";
+                }
+                else if (Divisions[i] is IBaggagesReport)
+                    result += (Divisions[i] as IBaggagesReport).ReportBaggages();
+            }
+            return result; ;
         }
 
         private Passenger GetRandomPassenger()
         {
-            return new Passenger(new Baggage(new Random().Next(0, 100)));
+            return new Passenger(new Baggage(new Random().Next(0, 37)));
         }
     }
 }

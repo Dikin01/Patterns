@@ -1,73 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="Lab3.Passenger" Collapsed="true">
-    <Position X="3.5" Y="4.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAEAAAABAAAAAAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Person\Passenger.cs</FileName>
-    </TypeIdentifier>
-    <Lollipop Position="0.2" />
-  </Class>
-  <Class Name="Lab3.Pilot" Collapsed="true">
-    <Position X="5.75" Y="4.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Person\Pilot.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="Lab3.Stewardess" Collapsed="true">
-    <Position X="8" Y="4.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Person\Stewardess.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="Lab3.BusinessClass" Collapsed="true">
-    <Position X="14.75" Y="4.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAgAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAgAAAA=</HashCode>
-      <FileName>AircraftClass\BusinessClass.cs</FileName>
-    </TypeIdentifier>
-    <Lollipop Position="0.2" />
-  </Class>
-  <Class Name="Lab3.EconomyClass" Collapsed="true">
-    <Position X="10.25" Y="4.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAgAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAgAAAA=</HashCode>
-      <FileName>AircraftClass\EconomyClass.cs</FileName>
-    </TypeIdentifier>
-    <Lollipop Position="0.2" />
-  </Class>
-  <Class Name="Lab3.FirstClass" Collapsed="true">
-    <Position X="12.5" Y="4.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAgAAAA=</HashCode>
-      <FileName>AircraftClass\FirstClass.cs</FileName>
-    </TypeIdentifier>
-    <Lollipop Position="0.2" />
-  </Class>
-  <Class Name="Lab3.AircraftClass" Collapsed="true">
-    <Position X="12.5" Y="2.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAIAAAAAAAAAAAAAAAAABAAAABAAAAAAAAAAAAgAAAA=</HashCode>
-      <FileName>Interface\AircraftClass.cs</FileName>
-    </TypeIdentifier>
-    <Lollipop Position="0.2" />
-  </Class>
-  <Class Name="Lab3.AircraftDivision" Collapsed="true">
-    <Position X="9" Y="1.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Interface\AircraftDivision.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="Lab3.AircraftPerson" Collapsed="true">
-    <Position X="5.75" Y="2.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAg=</HashCode>
-      <FileName>Interface\AircraftPerson.cs</FileName>
-    </TypeIdentifier>
-  </Class>
   <Class Name="Lab3.Baggage" Collapsed="true">
     <Position X="17.25" Y="1.5" Width="1.5" />
     <TypeIdentifier>
@@ -80,6 +12,89 @@
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Baggage\BaggageReport.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab3.BusinessClass">
+    <Position X="7.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>AircraftClass\BusinessClass.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Lab3.EconomyClass">
+    <Position X="9.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>AircraftClass\EconomyClass.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Lab3.FirstClass">
+    <Position X="12" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>AircraftClass\FirstClass.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Lab3.AircraftClass">
+    <Position X="9.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAABAAAABAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Interface\AircraftClass.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Lab3.AircraftDivision" Collapsed="true">
+    <Position X="7.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interface\AircraftDivision.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab3.AircraftPerson" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Interface\AircraftPerson.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab3.Passenger">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAABAAAAAAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Person\Passenger.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Lab3.Pilot">
+    <Position X="2.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Person\Pilot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab3.Stewardess">
+    <Position X="5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Person\Stewardess.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab3.Aircraft">
+    <Position X="14" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAABAAAAAAAAAAAACBAABAAAAAAAAAABAgAAAA=</HashCode>
+      <FileName>Aircraft.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Lab3.Program" Collapsed="true">
+    <Position X="16.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Interface Name="Lab3.IPassangerBaggageChecker" Collapsed="true">

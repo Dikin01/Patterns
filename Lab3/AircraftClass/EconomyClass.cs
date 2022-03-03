@@ -27,7 +27,7 @@ namespace Lab3
             }
         }
 
-        public string ReportBaggages()
+        public new string ReportBaggages()
         {
             string result = "\nЭконом класс:";
             for (int i = 0; i < Divisions.Count; i++)
@@ -44,7 +44,7 @@ namespace Lab3
 
                     };
 
-                    result += $"\n\tУ пассажира {passenger.Name} + {passenger.LastName} + багаж {bagStatus}";
+                    result += $"\n\tУ пассажира {passenger.Name} {passenger.LastName} багаж {bagStatus}";
                 }
                 else if (Divisions[i] is IBaggagesReport)
                     result += (Divisions[i] as IBaggagesReport).ReportBaggages();

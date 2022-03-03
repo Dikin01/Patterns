@@ -17,7 +17,7 @@
 
         public override void PutOnPlane(AircraftDivision division)
         {
-            if (division is IPassangerBaggageChecker && (division as IPassangerBaggageChecker).Check(this))
+            if (division is IPassangerBaggageChecker && !(division as IPassangerBaggageChecker).Check(this))
             {
                 baggage.StateBaggage = StateBaggage.RemoveFromFlight;
             }
