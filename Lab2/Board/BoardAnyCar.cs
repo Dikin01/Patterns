@@ -13,4 +13,16 @@ namespace Lab2
             return BoardDriver()&&BoardPassenger();
         }
     }
+
+    public abstract class CopyOfBoardAnyCar
+    {
+        public Driver Driver { set; get; }
+        public List<Passenger> Passengers { set; get; }
+        protected abstract bool BoardPassenger();
+        protected abstract bool BoardDriver();
+        public bool isMoving()
+        {
+            return BoardDriver() && BoardPassenger();
+        }
+    }
 }

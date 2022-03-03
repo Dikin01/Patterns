@@ -7,21 +7,21 @@
       <FileName>Board\Builder\BoardBuilder.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Lab2.BoatBuilder" Collapsed="true">
+  <Class Name="Lab2.BoatBuilder">
     <Position X="3.75" Y="3.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAEAgAAABAAAAAAAADAgAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Board\Builder\BoatBuilder.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Lab2.BusBuilder" Collapsed="true">
+  <Class Name="Lab2.BusBuilder">
     <Position X="6" Y="3.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAECgAAABAAAAAAAABAgAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Board\Builder\BusBuilder.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Lab2.TaxiBuilder" Collapsed="true">
+  <Class Name="Lab2.TaxiBuilder">
     <Position X="1.5" Y="3.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAEAgAAABAAAAAAAABAgAAAAAAAAAAAAAAAQAAA=</HashCode>
@@ -61,34 +61,6 @@
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAEAAAAAAAAAAA=</HashCode>
       <FileName>Passenger\TaxiPassenger.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="Lab2.BoardAnyCar" Collapsed="true">
-    <Position X="4" Y="4.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAQAAAAAAAAAAgAAAAAAgAAAAAABAAAIAAA=</HashCode>
-      <FileName>Board\BoardAnyCar.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="Lab2.BoardBus" Collapsed="true">
-    <Position X="4" Y="6" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAQAAEAAAAAAAAgAAAAAAAAAAAAAAAAAICAA=</HashCode>
-      <FileName>Board\BoardBus.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="Lab2.BoardTaxi" Collapsed="true">
-    <Position X="6.25" Y="6" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAQAAEAAAAAAAAgAAAAAAAAAAAAAAAAAICAA=</HashCode>
-      <FileName>Board\BoardTaxi.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="Lab2.BoatBoard" Collapsed="true">
-    <Position X="1.75" Y="6" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAEAAAAAAAAgAAAAAAAAAAAAAAAAAIAAA=</HashCode>
-      <FileName>Board\BoatBoard.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Lab2.BoatDriver" Collapsed="true">
