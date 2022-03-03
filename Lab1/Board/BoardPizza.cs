@@ -8,13 +8,11 @@ namespace Lab1
 {
     internal class BoardPizza : BoardAnyCar
     {
-        public TypeLicense License { private set; get; }
         public int LimitPassenger { private set; get; }
 
         public BoardPizza()
         {
             Driver = new PizzaDriver();
-            License = TypeLicense.A;
             LimitPassenger = 3;
             
             Passengers = new List<Passenger>();
@@ -27,7 +25,7 @@ namespace Lab1
         }
         protected override bool BoardDriver()
         {
-            if (Driver == null || !Driver.Lisence.Equals(License))
+            if (Driver == null)
             {
                 return false;
             }

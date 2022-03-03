@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 
 namespace Lab1
 {
@@ -8,18 +7,20 @@ namespace Lab1
         static void Main(string[] args)
         {
             bool success;
-            BoardPizza bus = new BoardPizza();
-
-
+            BoardAnyCar car;
 
             Console.WriteLine("Lab1");
-            success = bus.isMoving();
+            car = new BoardBus();
+            success = car.isMoving();
             Console.WriteLine("Может ли теперь ехать автобус = " + success);
-            
-            
 
+            car = new BoardTaxi();
+            success = car.isMoving();
+            Console.WriteLine("Может ли теперь ехать такси = " + success);
 
-
+            car = new BoardPizza();
+            success = car.isMoving();
+            Console.WriteLine("Может ли теперь ехать пицца = " + success);
 
         }
     }

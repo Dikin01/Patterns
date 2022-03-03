@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace Lab1
 {
@@ -17,13 +13,14 @@ namespace Lab1
             License = TypeLicense.D;
             LimitPassenger = 30;
             Price = 34;
+            
+
             Passengers = new List<Passenger>();
 
-            for (int i = 0; i < LimitPassenger/3; i++)
+            for (int i = 0; i < LimitPassenger / 2; i++)
             {
-                Passengers.Add(new AdultPassenger());
-                Passengers.Add(new ChildPassenger());
-                Passengers.Add(new PrivilegedPassenger());
+                Passengers.Add(new BusPassenger());
+                Passengers.Add(new BusPassenger("Ванька", MaturityPassenger.Kid));
             }
         }
 
@@ -44,21 +41,7 @@ namespace Lab1
                 return false;
             }
 
-
-            foreach (Passenger p in Passengers)
-            {
-                if (p is PrivilegedPassenger && !(p as PrivilegedPassenger).HasTravelCard)
-                {
-                    return false;
-                }
-                if (p is ChildPassenger && !((p as ChildPassenger).Age < 8))
-                {
-                    return false;
-                }
-
-            }
-
-
+            
             return true;
         }
     }

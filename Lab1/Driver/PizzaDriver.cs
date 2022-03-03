@@ -1,13 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Lab1
+﻿namespace Lab1
 {
-    internal class PizzaDriver : Driver
+    public class PizzaDriver : Driver
     {
-
+        public PizzaDriver(string name = "Дмитрий", string lastName = "Кондратьев", TypeLicense license = TypeLicense.A) : base(name, lastName, license) { }
     }
 }

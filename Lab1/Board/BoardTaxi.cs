@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace Lab1
 {
@@ -11,19 +7,23 @@ namespace Lab1
         public TypeLicense License { private set; get; }
         public int LimitPassenger { private set; get; }
         public double Price { private set; get; }
+        
         public BoardTaxi()
         {
             License = TypeLicense.B;
             Price = 150;
             LimitPassenger = 4;
-            Passengers = new List<Passenger>();
 
             Driver = new TaxiDriver();
-            
-            for (int i = 0; i < LimitPassenger; i++)
+
+            Passengers = new List<Passenger>();
+            for (int i = 0; i < LimitPassenger - 1; i++)
             {
-                Passengers.Add(new AdultPassenger());
+                Passengers.Add(new TaxiPassenger());
             }
+            TaxiPassenger child = new TaxiPassenger("Ванька", MaturityPassenger.Kid);
+            child.OnCarSeat = true;
+            Passengers.Add(child);
         }
 
         protected override bool BoardDriver()
@@ -43,7 +43,12 @@ namespace Lab1
                 return false;
             }
 
-            
+            foreach (TaxiPassenger passenger in Passengers)
+            {
+                if(passenger.Maturity.Equals(MaturityPassenger.Kid) && passenger.OnCarSeat == false)
+                    return false;
+            }
+                
             return true;
         }
     }

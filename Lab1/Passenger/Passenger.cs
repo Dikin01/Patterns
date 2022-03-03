@@ -1,22 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Lab1
+﻿namespace Lab1
 {
     public abstract class Passenger
     {
-        public string Name { protected set; get; }
-        public bool IsWantTaxi { protected set; get; }
-       
+        public string Name { protected set; get; }              
 
-        public Passenger(string name = "Иван", bool isWantTaxi = true)
+        public Passenger(string name = "Иван")
         {
-            Name = name;
-            IsWantTaxi = isWantTaxi;
-            
+            Name = name;              
         }
     }
 }
