@@ -8,7 +8,7 @@ namespace Lab1
 {
     public class BusDriver:Driver
     {
-        public BusDriver(string name = "Иван", string lastName = "Иванов", string lisence = "Bus")
+        public BusDriver(string name = "Иван", string lastName = "Иванов", TypeLicense lisence = TypeLicense.D)
         {
             Name = name;
             LastName = lastName;

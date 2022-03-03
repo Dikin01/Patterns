@@ -8,12 +8,12 @@ namespace Lab1
 {
     public class BoardTaxi:BoardAnyCar
     {
-        public string License { private set; get; }
+        public TypeLicense License { private set; get; }
         public int LimitPassenger { private set; get; }
         public double Price { private set; get; }
         public BoardTaxi()
         {
-            License = "Taxi";
+            License = TypeLicense.B;
             Price = 150;
             LimitPassenger = 4;
             Passengers = new List<Passenger>();
