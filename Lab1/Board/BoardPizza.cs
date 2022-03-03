@@ -4,14 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lab1.Driver
+namespace Lab1
 {
-    internal class PizzaBoard : BoardAnyCar
+    internal class BoardPizza : BoardAnyCar
     {
         public TypeLicense License { private set; get; }
         public int LimitPassenger { private set; get; }
 
-        public PizzaBoard()
+        public BoardPizza()
         {
             Driver = new PizzaDriver();
             License = TypeLicense.A;
@@ -27,12 +27,23 @@ namespace Lab1.Driver
         }
         protected override bool BoardDriver()
         {
-            ;
+            if (Driver == null || !Driver.Lisence.Equals(License))
+            {
+                return false;
+            }
+
+            return true;
         }
 
         protected override bool BoardPassenger()
         {
-            ;
+            if (Passengers.Count > LimitPassenger)
+            {
+                return false;
+            }
+
+
+            return true;
         }
     }
 }

@@ -11,10 +11,11 @@ namespace Lab3
         public double Weight { get; protected set; }
         public StateBaggage StateBaggage { get; set; }
 
-        public Baggage()
+        public Baggage(double weight = 10)
         {
             StateBaggage = StateBaggage.NotRegistered;
-            Weight = 10;
+           /* if
+            Weight = 10;*/
         }
     }
 }

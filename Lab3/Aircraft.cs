@@ -58,5 +58,10 @@ namespace Lab3
         {
             return "";
         }
+
+        private Passenger GetRandomPassenger()
+        {
+            return new Passenger(new Baggage(new Random().Next(0, 100)));
+        }
     }
 }

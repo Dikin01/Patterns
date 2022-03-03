@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Lab1
 {
-    public class ChildPassenger:Passenger
+    public class ChildPassenger : Passenger
     {
         public int Age { private set; get; }
         public ChildPassenger(string name = "Иван", bool isWantTaxi = true, int age = 5) : base(name, isWantTaxi)

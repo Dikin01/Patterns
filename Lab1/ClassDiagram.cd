@@ -22,7 +22,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Lab1.Program" Collapsed="true">
-    <Position X="5" Y="5.75" Width="1.5" />
+    <Position X="9" Y="7.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
       <FileName>Program.cs</FileName>
@@ -35,15 +35,8 @@
       <FileName>Driver\TaxiDriver.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Lab1.Driver">
-    <Position X="5.25" Y="0.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAACAg=</HashCode>
-      <FileName>Driver\Driver.cs</FileName>
-    </TypeIdentifier>
-  </Class>
   <Class Name="Lab1.Passenger">
-    <Position X="9.25" Y="1.25" Width="1.5" />
+    <Position X="13.5" Y="1.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAACAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Passenger\Passenger.cs</FileName>
@@ -57,24 +50,52 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Lab1.AdultPassenger">
-    <Position X="7.5" Y="4.5" Width="1.5" />
+    <Position X="11.75" Y="4.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Passenger\AdultPassenger.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Lab1.ChildPassenger">
-    <Position X="11" Y="4.5" Width="1.5" />
+    <Position X="15.25" Y="4.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Passenger\ChildPassenger.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Lab1.PrivilegedPassenger">
-    <Position X="9.25" Y="4.5" Width="1.5" />
+    <Position X="13.5" Y="4.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Passenger\PrivilegedPassenger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab1.Driver" Collapsed="true">
+    <Position X="5.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAACAg=</HashCode>
+      <FileName>Driver\Driver1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab1.PizzaDriver" Collapsed="true">
+    <Position X="8" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PizzaDriver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab1.PizzaBoard" Collapsed="true">
+    <Position X="5.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAAgAAAAAAAAAAAAAAAAAICAA=</HashCode>
+      <FileName>PizzaBoard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab1.PizzaPassenger" Collapsed="true">
+    <Position X="9.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PizzaPassenger.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />
