@@ -6,9 +6,23 @@
         xmlns:local="clr-namespace:Lab4"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <Grid x:Name="Grid" Background="Transparent" MouseMove="OnMouseMove">
-            <Button x:Name="Button" Width="100" Height="30" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="300,217,0,0" MouseDown="OnMouseDown" MouseUp="OnMouseUp">Тащи меня</Button>           
-        </Grid>
+    <Grid Name="Grid">
+        <local:ProxiButton x:Name="MyButton" Width="100" Height="30" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="300,217,0,0"/>
+        
+        <Button Content="Button" HorizontalAlignment="Left" Margin="460,310,0,0" VerticalAlignment="Top" Height="26" Width="77">
+            <Button.Background>
+                <ImageBrush ImageSource="/back.jpg"/>
+            </Button.Background>
+        </Button>
+        <Border BorderThickness="2000">
+            <Image x:Name="photo" Margin="51,59,145,59" Stretch="Fill">
+                <Image.OpacityMask>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="Black"/>
+                        <GradientStop Color="#FFE22020" Offset="1"/>
+                    </LinearGradientBrush>
+                </Image.OpacityMask>
+            </Image>
+        </Border>
     </Grid>
 </Window>

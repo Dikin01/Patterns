@@ -20,3 +20,10 @@ C:\Users\User\Desktop\Patterns\Lab4\obj\Debug\net5.0-windows\Lab4.dll
 C:\Users\User\Desktop\Patterns\Lab4\obj\Debug\net5.0-windows\ref\Lab4.dll
 C:\Users\User\Desktop\Patterns\Lab4\obj\Debug\net5.0-windows\Lab4.pdb
 C:\Users\User\Desktop\Patterns\Lab4\obj\Debug\net5.0-windows\Lab4.genruntimeconfig.cache
+C:\Users\User\Desktop\Patterns\Lab4\obj\Debug\net5.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\User\Desktop\Patterns\Lab4\bin\Debug\net5.0-windows\Microsoft.Win32.SystemEvents.dll
+C:\Users\User\Desktop\Patterns\Lab4\bin\Debug\net5.0-windows\System.Drawing.Common.dll
+C:\Users\User\Desktop\Patterns\Lab4\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+C:\Users\User\Desktop\Patterns\Lab4\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp3.1\System.Drawing.Common.dll
+C:\Users\User\Desktop\Patterns\Lab4\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp3.1\System.Drawing.Common.dll
+C:\Users\User\Desktop\Patterns\Lab4\obj\Debug\net5.0-windows\Lab4.csproj.CopyComplete

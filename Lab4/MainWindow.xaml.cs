@@ -22,33 +22,13 @@ namespace Lab4
         public MainWindow()
         {
             InitializeComponent();
-            Grid.PreviewMouseMove += OnMouseMove;
-            Grid.PreviewMouseLeftButtonDown += OnMouseDown;
-            Grid.PreviewMouseLeftButtonUp += OnMouseUp;
+            Grid.PreviewMouseMove += MyButton.ButtonMove;
+            Grid.PreviewMouseLeftButtonDown += MyButton.ButtonDown;
+            Grid.PreviewMouseLeftButtonUp += MyButton.ButtonUp;
+            //Grid.PreviewMouseRightButtonUp += MyButton.DrawImage;
+
         }
 
-        private object? _captured;
-        private Point _capturePosition;
-
-        private void OnMouseUp(object sender, MouseButtonEventArgs e)
-        {
-            _captured = null;            
-        }
-
-        private void OnMouseDown(object sender, MouseButtonEventArgs e)
-        {
-            _captured = e.Source as Button;
-            _capturePosition = e.GetPosition(Button);            
-        }
-
-        private void OnMouseMove(object sender, MouseEventArgs e)
-        {
-            if (_captured != null)
-            {
-                var pos = e.GetPosition(Grid);                  
-                pos.Offset(-_capturePosition.X, -_capturePosition.Y);
-                Button.Margin = new Thickness(pos.X, pos.Y, 0, 0);                
-            }
-        }
+        
     }
 }
