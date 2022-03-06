@@ -8,9 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="back.jpg" />
-    <None Remove="Backgrounds_Red_bat_on_a_black_background_098444_.jpg" />
-    <None Remove="WhatsApp Image 2022-01-26 at 10.35.32 AM.jpeg" />
+    <None Remove="Untitled.jpeg" />
   </ItemGroup>
 
   <ItemGroup>
@@ -18,11 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="back.jpg">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Backgrounds_Red_bat_on_a_black_background_098444_.jpg" />
-    <Resource Include="WhatsApp Image 2022-01-26 at 10.35.32 AM.jpeg" />
+    <Resource Include="Untitled.jpeg" />
   </ItemGroup>
 
 </Project>
