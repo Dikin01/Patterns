@@ -8,7 +8,7 @@ namespace Lab3
 {
     internal class Aircraft : AircraftDivision, IBaggagesReport
     {
-        public List<AircraftDivision> Divisions { protected set; get; }
+        public List<AircraftDivision> Divisions { set; get; }
         private Pilot[] pilots = new Pilot[2];
         private Stewardess[] stewardesses = new Stewardess[6];
 
@@ -53,6 +53,7 @@ namespace Lab3
             Divisions.Add(economyClass);
         }
 
+        
         public override void PutOnPlane(AircraftDivision division)
         {
             for(int i = 0; i<Divisions.Count(); i++)
@@ -88,7 +89,7 @@ namespace Lab3
 
         private Passenger GetRandomPassenger()
         {
-            return new Passenger(new Baggage(new Random().Next(0, 37)));
+            return new Passenger(new Baggage(new Random().Next(0, 45)));
         }
     }
 }

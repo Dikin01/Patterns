@@ -8,7 +8,7 @@ namespace Lab3
         public const int PersonLimit = 100;
         public virtual void Add(AircraftDivision division)
         {
-            if(Divisions.Count < PersonLimit)
+            if (Divisions.Count < PersonLimit)
                 Divisions.Add(division);
         }
         public virtual void Remove(AircraftDivision division)
@@ -39,6 +39,17 @@ namespace Lab3
                     result += (Divisions[i] as IBaggagesReport).ReportBaggages();
             }
             return result;
+        }
+
+        public virtual void RemovePassengersWithoutBaggage()
+        {
+            foreach (var division in Divisions.ToArray())
+            {
+                if (division is Passenger && (division as Passenger).Baggage.StateBaggage.Equals(StateBaggage.RemoveFromFlight))
+                {
+                    Divisions.Remove(division);
+                }
+            }
         }
 
     }

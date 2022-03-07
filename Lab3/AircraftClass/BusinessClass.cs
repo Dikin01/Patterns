@@ -12,15 +12,15 @@ namespace Lab3
         }
 
         public bool Check(Passenger passenger)
-        {
+        {            
             return passenger.Baggage.Weight < 35;
         }
 
         public override void PutOnPlane(AircraftDivision division)
         {
-            foreach (AircraftDivision div in Divisions)
+            for(int i = 0; i < Divisions.Count; i++)
             {
-                div.PutOnPlane(this);
+                Divisions[i].PutOnPlane(this);
             }
         }
 
@@ -31,7 +31,7 @@ namespace Lab3
             {
                 if (Divisions[i] is Passenger)
                 {
-                    Passenger passenger = (Passenger) Divisions[i];
+                    Passenger passenger = (Passenger) Divisions[i];                    
                     string bagStatus = passenger.Baggage.StateBaggage switch
                     {
                         StateBaggage.NotRegistered => "не прошёл регистрацию",
@@ -48,6 +48,8 @@ namespace Lab3
             }
             return result;
         }
+
+        
 
     }
 }
