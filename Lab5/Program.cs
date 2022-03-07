@@ -15,24 +15,10 @@ namespace Lab5
                 " Nulla ullamcorper mi    dolor, vel congue elit molestie vel.    Sed sed porta nisl.";
                 
             StandartTextCorrector corrector = new StandartTextCorrector();
+            
             string formattedText = corrector.Correct(text);
             Console.WriteLine(formattedText);
 
-        }
-
-        private static string TextInput()
-        {
-            string text = "";
-            string newString = "";
-            do
-            {
-                newString = Console.ReadLine() + "\n";
-                text += newString;
-            }
-            while (!newString.Equals("q"));
-
-            Console.WriteLine(text);
-            return text;
-        }
+        }        
     }
 }

@@ -3,7 +3,7 @@
   <Class Name="Lab6.DeanOffice" BaseTypeListCollapsed="true">
     <Position X="0.5" Y="2" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAABAAAAAAAMAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>DeanOffice.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" Collapsed="true" />
@@ -15,13 +15,6 @@
       <FileName>Department.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" Collapsed="true" />
-  </Class>
-  <Class Name="Lab6.Program" Collapsed="true">
-    <Position X="7" Y="0.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
-      <FileName>Program.cs</FileName>
-    </TypeIdentifier>
   </Class>
   <Class Name="Lab6.Teacher" BaseTypeListCollapsed="true">
     <Position X="4.75" Y="2" Width="1.5" />

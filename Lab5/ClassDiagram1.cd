@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="Lab5.BreakCorrector" BaseTypeListCollapsed="true">
-    <Position X="11" Y="2.25" Width="1.5" />
+    <Position X="16.5" Y="2.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
       <FileName>BreakCorrector.cs</FileName>
@@ -9,7 +9,7 @@
     <Lollipop Position="0.2" Collapsed="true" />
   </Class>
   <Class Name="Lab5.DashesCorrector" BaseTypeListCollapsed="true">
-    <Position X="9.25" Y="2.25" Width="1.5" />
+    <Position X="7.5" Y="2.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
       <FileName>DashesCorrector.cs</FileName>
@@ -17,7 +17,7 @@
     <Lollipop Position="0.2" Collapsed="true" />
   </Class>
   <Class Name="Lab5.MultSpacesCorrector" BaseTypeListCollapsed="true">
-    <Position X="7.5" Y="3.75" Width="1.5" />
+    <Position X="9.5" Y="2.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
       <FileName>MultSpacesCorrector.cs</FileName>
@@ -25,7 +25,7 @@
     <Lollipop Position="0.2" Collapsed="true" />
   </Class>
   <Class Name="Lab5.QuotesCorrector" BaseTypeListCollapsed="true">
-    <Position X="11" Y="3.75" Width="1.5" />
+    <Position X="14.25" Y="2.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
       <FileName>QuotesCorrector.cs</FileName>
@@ -33,7 +33,7 @@
     <Lollipop Position="0.2" Collapsed="true" />
   </Class>
   <Class Name="Lab5.SeparationCorrector" BaseTypeListCollapsed="true">
-    <Position X="7.5" Y="2.25" Width="1.5" />
+    <Position X="5.25" Y="2.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
       <FileName>SeparationCorrector.cs</FileName>
@@ -41,15 +41,15 @@
     <Lollipop Position="0.2" Collapsed="true" />
   </Class>
   <Class Name="Lab5.StandartTextCorrector" BaseTypeListCollapsed="true">
-    <Position X="4" Y="2.25" Width="2.25" />
+    <Position X="2" Y="2.25" Width="2.25" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAICAA=</HashCode>
+      <HashCode>AAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
       <FileName>StandartTextCorrector.cs</FileName>
     </TypeIdentifier>
-    <Lollipop Position="0.2" Collapsed="true" />
+    <Lollipop Position="0.153" Collapsed="true" />
   </Class>
   <Class Name="Lab5.TabCorrector" BaseTypeListCollapsed="true">
-    <Position X="9.25" Y="3.75" Width="1.5" />
+    <Position X="11.5" Y="2.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
       <FileName>TabCorrector.cs</FileName>
@@ -57,7 +57,7 @@
     <Lollipop Position="0.2" Collapsed="true" />
   </Class>
   <Interface Name="Lab5.ITextCorrector">
-    <Position X="6" Y="0.75" Width="1.5" />
+    <Position X="4" Y="0.75" Width="8" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
       <FileName>ITextCorrector.cs</FileName>

@@ -24,6 +24,7 @@ namespace Lab6
             Teacher newTeacher = new Teacher("Николай", department);
             newTeacher.BaseInitialPerfomance();
             department.teachers.Add(newTeacher);
+            department.teachers.Remove(newTeacher);
 
             Console.WriteLine("\nТретья неделя");
             Console.WriteLine(deanOffice.NextWeek());

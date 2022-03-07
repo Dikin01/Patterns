@@ -2,7 +2,8 @@
 {
     public interface IObserver
     {
-        public string GivePerfomance();   
+        public string GivePerfomance();
+
         
     }
 }

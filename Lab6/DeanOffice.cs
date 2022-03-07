@@ -4,8 +4,7 @@ using System.Collections.Generic;
 namespace Lab6
 {
     public class DeanOffice : IObservable
-    {
-        List<IObserver> obsevers = new List<IObserver>();
+    {        
         public event Func<string> CollectReport;
 
         public string NextWeek()
