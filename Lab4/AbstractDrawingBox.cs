@@ -8,7 +8,7 @@ namespace Lab4
     public abstract class AbstractDrawingBox : Button
     {
         public System.Drawing.Image? Image;
-        protected string ImagePath = "C:/Users/kondi/Desktop/Patterns/Lab4/Untitled.jpeg";
+        protected string ImagePath = "C:/Users/User/Desktop/Patterns/Lab4/Untitled.jpeg";
         protected Point capturePosition;
         public bool IsHold { protected set; get; }
         public ImageBrush? imageBrush { get; private set; }
