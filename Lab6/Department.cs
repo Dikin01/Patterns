@@ -5,12 +5,12 @@ namespace Lab6
     public class Department : IObserver
     {
         public string Name { get; set; }
-        public List<Teacher> teachers { get; set; }
+        public List<IObserver> teachers { get; set; }
 
         public Department(string name = "ВМ-1")
         {
             Name = name;
-            teachers = new List<Teacher>();
+            teachers = new List<IObserver>();
         }
 
         public void BaseInitTeachers()
