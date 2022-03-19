@@ -9,6 +9,8 @@ namespace Lab6
             DeanOffice deanOffice = new DeanOffice();
 
             Department department = new Department("Права");
+
+            //Подписка Observer на Notify Observable, для Фёдорова нужно Add использовать с этим же кодом
             deanOffice.CollectReport += department.GivePerfomance;
 
             department.BaseInitTeachers();

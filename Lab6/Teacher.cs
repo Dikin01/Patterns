@@ -35,6 +35,7 @@ namespace Lab6
                 Performance[name] = true;
         }
         
+        //HandleEvent
         public string GivePerfomance()
         {
             string result = "";

@@ -2,8 +2,7 @@
 {
     public interface IObserver
     {
-        public string GivePerfomance();
-
-        
+        //HandleEvent в гофе
+        public string GivePerfomance();        
     }
 }

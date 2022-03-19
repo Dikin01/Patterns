@@ -3,6 +3,7 @@
 namespace Lab6
 {
     public class Department : IObserver
+
     {
         public string Name { get; set; }
         public List<IObserver> teachers { get; set; }
@@ -13,6 +14,7 @@ namespace Lab6
             teachers = new List<IObserver>();
         }
 
+        //HandleEvent
         public void BaseInitTeachers()
         {
             Teacher teacher1 = new Teacher("Дмитрий", this);
